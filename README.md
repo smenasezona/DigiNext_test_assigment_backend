@@ -7,6 +7,17 @@
 
 This document provides a comprehensive guide to understanding and utilizing the Flask API with SQLite database for managing entities. The API allows creating, retrieving, updating, and deleting entities, as well as filtering entities by labels and retrieving coordinates.
 
+1. [Introduction](#introduction)
+2. [Setup](#setup)
+3. [Endpoints](#endpoints)
+    - [Create Entity](#create-entity)
+    - [Get Entity](#get-entity)
+    - [Update Entity](#update-entity)
+    - [Delete Entity](#delete-entity)
+    - [Get All Entities](#get-all-entities)
+    - [Filter Entities](#filter-entities)
+    - [Get Coordinates](#get-coordinates)
+
 ### Introduction
 
 This Flask API serves as a backend for managing entities. It provides endpoints to perform CRUD operations on entities stored in an SQLite database. Each entity consists of a name, coordinate, and labels.
